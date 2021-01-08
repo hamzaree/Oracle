@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SegmentOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SegmentOraclev10g" name="Storage1" directorySegmentName="seg_0" id="7CE3E0E3-9A80-DE80-3F32-6993F853062C">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:33 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<maxTrans>255</maxTrans>
+</SegmentOraclev10g>

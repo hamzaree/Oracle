@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF11D0B9-970E-6DED-B83F-C3408421DA6C" schemaObject="74121F9E-E83B-F996-E7EF-A40A9B17D8D4" name="LOCATION">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>ASSIGNEMENT</sourceObjSchema>
+<sourceObjName>LOCATION</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:33 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FACNO" id="4F6A0F2F-C3EA-92A0-24DD-CA14589D82CF">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>LOCATION</sourceObjSchema>
+<sourceObjName>FACNO</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D200863C-6860-3327-AB45-6C3921282E16" referredColumn="71143529-2FA6-BFEA-8F3D-BF90C4D331A2"/>
+</associations>
+</Column>
+<Column name="LOCNO" id="E983A6F1-E157-B439-A2D6-8990F7B64B7F">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>LOCATION</sourceObjSchema>
+<sourceObjName>LOCNO</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCNAME" id="5E3B20D8-96E2-4873-A058-43A87AA31559">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>LOCATION</sourceObjSchema>
+<sourceObjName>LOCNAME</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1139BEA-A328-088B-DCEC-24EA603DD9D6" name="LOCATIONPK">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>ASSIGNEMENT</sourceObjSchema>
+<sourceObjName>LOCATIONPK</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:37 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E983A6F1-E157-B439-A2D6-8990F7B64B7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A063744-3C34-BBE4-3F92-79D047FD3A1D" schemaObject="74121F9E-E83B-F996-E7EF-A40A9B17D8D4" name="LOCATIONPK">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>ASSIGNEMENT</sourceObjSchema>
+<sourceObjName>LOCATIONPK</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:35 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E983A6F1-E157-B439-A2D6-8990F7B64B7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="471A11DF-280D-F647-3D65-E56429409605" name="FACILITYFK">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:38 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F6A0F2F-C3EA-92A0-24DD-CA14589D82CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

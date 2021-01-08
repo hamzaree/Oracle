@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CUSTOMER" directorySegmentName="seg_0" id="DD768593-BF78-F8DE-75D0-0C091C56E073">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:33 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<schemaObject>74121F9E-E83B-F996-E7EF-A40A9B17D8D4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>19030A98-01A7-EFA5-5595-640D5AF5F371</segment>
+<tableSpace>3DF166DA-1706-3BF4-AA5B-5F70F75350D8</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CONTACT" id="3404C896-7EAA-255C-CA34-632030D6C68D">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ZIP" id="3CEA56F9-C12D-0EEC-8F93-34C898039945">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDRESS" id="66175ADD-E642-6ACD-38B8-5CB2E5CDC8C4">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INTERNAL" id="664ECE44-1445-6F3B-654E-3DCDF62AECA4">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATE" id="730BE066-B6D7-3B23-EB9C-A45E63202621">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="834CCD1B-9F18-75E1-D18A-CCBD733A6BB2">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CITY" id="A068CFF2-1E4D-6F93-844C-1473770FB8DE">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTNO" id="CC3AE63F-9613-70A7-5B0C-4686FD314999">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTNAME" id="E97E62E9-A57D-1D38-E184-2A5DFDF14537">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CUSTOMERPK" id="C836987D-60F3-10AF-0E78-F63AB6C493FA">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:35 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<schemaObject>74121F9E-E83B-F996-E7EF-A40A9B17D8D4</schemaObject>
+<segment>CE2DEA45-302C-3686-B589-A119EBAB7AB5</segment>
+<tableSpace>3DF166DA-1706-3BF4-AA5B-5F70F75350D8</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CUSTOMERPK" id="E1E84E31-1555-12A8-B6C5-8DACF07E5F75">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:37 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<segment>CE2DEA45-302C-3686-B589-A119EBAB7AB5</segment>
+<tableSpace>3DF166DA-1706-3BF4-AA5B-5F70F75350D8</tableSpace>
+<existingIndex>C836987D-60F3-10AF-0E78-F63AB6C493FA</existingIndex>
+<indexSegment>CE2DEA45-302C-3686-B589-A119EBAB7AB5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

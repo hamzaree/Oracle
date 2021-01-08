@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="RESOURCETBL" directorySegmentName="seg_0" id="0312798F-ECBB-9B93-CBDE-D1CF65BAC9D5">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:33 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<schemaObject>74121F9E-E83B-F996-E7EF-A40A9B17D8D4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>19030A98-01A7-EFA5-5595-640D5AF5F371</segment>
+<tableSpace>3DF166DA-1706-3BF4-AA5B-5F70F75350D8</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="RATE" id="0E351820-1BB2-9CAF-6249-874C9BD1A52E">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESNO" id="68610504-BCBC-6138-07BC-51FC7C6C4C85">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESNAME" id="AE06855C-72D4-3CFB-1900-93322B349DED">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RESOURCETBLPK" id="8422F61F-8F80-726A-EA9E-18F0844A8254">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:35 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<schemaObject>74121F9E-E83B-F996-E7EF-A40A9B17D8D4</schemaObject>
+<segment>CE2DEA45-302C-3686-B589-A119EBAB7AB5</segment>
+<tableSpace>3DF166DA-1706-3BF4-AA5B-5F70F75350D8</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RESOURCETBLPK" id="C02BE526-E53A-BE3E-A808-1EA7DE8E46E4">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:37 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<segment>CE2DEA45-302C-3686-B589-A119EBAB7AB5</segment>
+<tableSpace>3DF166DA-1706-3BF4-AA5B-5F70F75350D8</tableSpace>
+<existingIndex>8422F61F-8F80-726A-EA9E-18F0844A8254</existingIndex>
+<indexSegment>CE2DEA45-302C-3686-B589-A119EBAB7AB5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

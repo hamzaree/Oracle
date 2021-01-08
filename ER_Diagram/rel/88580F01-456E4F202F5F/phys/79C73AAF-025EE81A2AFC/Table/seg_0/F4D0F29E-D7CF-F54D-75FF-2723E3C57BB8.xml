@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EVENTPLANLINE" directorySegmentName="seg_0" id="F4D0F29E-D7CF-F54D-75FF-2723E3C57BB8">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:33 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<schemaObject>74121F9E-E83B-F996-E7EF-A40A9B17D8D4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>19030A98-01A7-EFA5-5595-640D5AF5F371</segment>
+<tableSpace>3DF166DA-1706-3BF4-AA5B-5F70F75350D8</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PLANNO" id="12DFD4A5-7799-4491-C87B-3C5EFCC6F072">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LINENO" id="20D8EAFD-597F-5224-0C15-F32AA2F27E09">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESNO" id="6043D3EC-09D8-5667-156D-7505F1B11037">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIMEEND" id="79E799F0-6123-0D4C-C04E-A2046DEA61BF">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCNO" id="82D5EC1C-94BE-D8C4-8FCB-1B3586C03D8F">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMBERFLD" id="A8F5C439-B8CF-70BE-B1E9-1F9FFCE4F93B">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIMESTART" id="FF93D962-9B2B-634C-A816-136A066086C1">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EVENTPLANLINEPK" id="5690EBE7-0BBC-F387-D1FB-A1A997792F79">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:35 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<schemaObject>74121F9E-E83B-F996-E7EF-A40A9B17D8D4</schemaObject>
+<segment>CE2DEA45-302C-3686-B589-A119EBAB7AB5</segment>
+<tableSpace>3DF166DA-1706-3BF4-AA5B-5F70F75350D8</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RESOURCETBLFK" id="627F3C4B-F6C9-2F1B-1C95-06F782443084">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:38 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="LOCATIONFK" id="D2C8C0DC-953E-82A9-3CCB-ED9810234C29">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:38 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EVENTPLANFK" id="F0D72653-54AA-555F-463A-7A2DAA2CF658">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:38 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EVENTPLANLINEPK" id="1B0D1C4C-499F-7F11-4CBE-984AC8F9B171">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:37 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<segment>CE2DEA45-302C-3686-B589-A119EBAB7AB5</segment>
+<tableSpace>3DF166DA-1706-3BF4-AA5B-5F70F75350D8</tableSpace>
+<existingIndex>5690EBE7-0BBC-F387-D1FB-A1A997792F79</existingIndex>
+<indexSegment>CE2DEA45-302C-3686-B589-A119EBAB7AB5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

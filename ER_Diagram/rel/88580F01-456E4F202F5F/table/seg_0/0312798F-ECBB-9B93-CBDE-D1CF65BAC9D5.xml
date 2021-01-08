@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0312798F-ECBB-9B93-CBDE-D1CF65BAC9D5" schemaObject="74121F9E-E83B-F996-E7EF-A40A9B17D8D4" name="RESOURCETBL">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>ASSIGNEMENT</sourceObjSchema>
+<sourceObjName>RESOURCETBL</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:33 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RESNO" id="68610504-BCBC-6138-07BC-51FC7C6C4C85">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>RESOURCETBL</sourceObjSchema>
+<sourceObjName>RESNO</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESNAME" id="AE06855C-72D4-3CFB-1900-93322B349DED">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>RESOURCETBL</sourceObjSchema>
+<sourceObjName>RESNAME</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATE" id="0E351820-1BB2-9CAF-6249-874C9BD1A52E">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>RESOURCETBL</sourceObjSchema>
+<sourceObjName>RATE</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C02BE526-E53A-BE3E-A808-1EA7DE8E46E4" name="RESOURCETBLPK">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>ASSIGNEMENT</sourceObjSchema>
+<sourceObjName>RESOURCETBLPK</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:37 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68610504-BCBC-6138-07BC-51FC7C6C4C85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8422F61F-8F80-726A-EA9E-18F0844A8254" schemaObject="74121F9E-E83B-F996-E7EF-A40A9B17D8D4" name="RESOURCETBLPK">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>ASSIGNEMENT</sourceObjSchema>
+<sourceObjName>RESOURCETBLPK</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:35 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68610504-BCBC-6138-07BC-51FC7C6C4C85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

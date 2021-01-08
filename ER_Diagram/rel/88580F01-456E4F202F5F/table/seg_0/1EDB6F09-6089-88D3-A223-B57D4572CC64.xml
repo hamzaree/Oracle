@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1EDB6F09-6089-88D3-A223-B57D4572CC64" schemaObject="74121F9E-E83B-F996-E7EF-A40A9B17D8D4" name="EVENTREQUEST">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>ASSIGNEMENT</sourceObjSchema>
+<sourceObjName>EVENTREQUEST</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:33 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EVENTNO" id="F1C67F70-893D-C590-6388-3E437866D59D">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>EVENTNO</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATEHELD" id="7CC93335-DA02-3752-96F3-1CCAFF618FD2">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>DATEHELD</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATEREQ" id="9C1062C3-D8B9-D3D3-4229-F5CDEA3475EE">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>DATEREQ</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTNO" id="D9DBBE1D-AEC2-EAE4-48D6-A8431D0B7A4E">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>CUSTNO</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47C4A6F6-C079-2989-B76E-40EABB4289EE" referredColumn="CC3AE63F-9613-70A7-5B0C-4686FD314999"/>
+</associations>
+</Column>
+<Column name="FACNO" id="3D273ADB-2388-823C-A314-C6F482E7E520">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>FACNO</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FD6C4FE-82E0-2FE2-4381-2D5551975252" referredColumn="71143529-2FA6-BFEA-8F3D-BF90C4D331A2"/>
+</associations>
+</Column>
+<Column name="DATEAUTH" id="76C7471A-190F-6A9E-F06D-BF3B9D0EFB41">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>DATEAUTH</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="56F5099F-11C6-B935-ADDB-27183FB3E10C">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTCOST" id="79E1DB37-3539-D9C6-17E7-A06EEF678435">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>ESTCOST</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTAUDIENCE" id="DD715A15-D98F-DC58-6784-C53B58ADB8FB">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>ESTAUDIENCE</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUDNO" id="0CA09F64-A24C-C536-8962-997C84B67F62">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>BUDNO</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="33576020-7421-DB87-4576-E683410348BD" name="EVENTEQUESTPK">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>ASSIGNEMENT</sourceObjSchema>
+<sourceObjName>EVENTEQUESTPK</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:37 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1C67F70-893D-C590-6388-3E437866D59D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30443733-3255-A37F-6596-F5383B4C2205" schemaObject="74121F9E-E83B-F996-E7EF-A40A9B17D8D4" name="EVENTEQUESTPK">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>ASSIGNEMENT</sourceObjSchema>
+<sourceObjName>EVENTEQUESTPK</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:35 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1C67F70-893D-C590-6388-3E437866D59D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7366F2B5-ED47-178B-1005-10BE02529FEC" name="CUSTOMERFK">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:38 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9DBBE1D-AEC2-EAE4-48D6-A8431D0B7A4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8E6D849-0B65-4EF9-B923-FBDCD1BC65C4" name="FACILITYFK2">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:38 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D273ADB-2388-823C-A314-C6F482E7E520"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

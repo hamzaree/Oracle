@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ER_Diagram" id="EE8C66E4-7E87-D410-C5B4-6BE9124C0F10" version="3.5">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:56:18 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EE8C66E4-7E87-D410-C5B4-6BE9124C0F10</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C902DCB3-067D-8F60-950D-1984A452B53C">
+<designStoragePath>/</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

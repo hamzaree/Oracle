@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EVENTREQUEST" directorySegmentName="seg_0" id="1EDB6F09-6089-88D3-A223-B57D4572CC64">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:33 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<schemaObject>74121F9E-E83B-F996-E7EF-A40A9B17D8D4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>19030A98-01A7-EFA5-5595-640D5AF5F371</segment>
+<tableSpace>3DF166DA-1706-3BF4-AA5B-5F70F75350D8</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BUDNO" id="0CA09F64-A24C-C536-8962-997C84B67F62">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACNO" id="3D273ADB-2388-823C-A314-C6F482E7E520">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="56F5099F-11C6-B935-ADDB-27183FB3E10C">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATEAUTH" id="76C7471A-190F-6A9E-F06D-BF3B9D0EFB41">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTCOST" id="79E1DB37-3539-D9C6-17E7-A06EEF678435">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATEHELD" id="7CC93335-DA02-3752-96F3-1CCAFF618FD2">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATEREQ" id="9C1062C3-D8B9-D3D3-4229-F5CDEA3475EE">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTNO" id="D9DBBE1D-AEC2-EAE4-48D6-A8431D0B7A4E">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTAUDIENCE" id="DD715A15-D98F-DC58-6784-C53B58ADB8FB">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EVENTNO" id="F1C67F70-893D-C590-6388-3E437866D59D">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EVENTEQUESTPK" id="30443733-3255-A37F-6596-F5383B4C2205">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:35 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<schemaObject>74121F9E-E83B-F996-E7EF-A40A9B17D8D4</schemaObject>
+<segment>CE2DEA45-302C-3686-B589-A119EBAB7AB5</segment>
+<tableSpace>3DF166DA-1706-3BF4-AA5B-5F70F75350D8</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CUSTOMERFK" id="7366F2B5-ED47-178B-1005-10BE02529FEC">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:38 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FACILITYFK2" id="D8E6D849-0B65-4EF9-B923-FBDCD1BC65C4">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:38 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EVENTEQUESTPK" id="33576020-7421-DB87-4576-E683410348BD">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:37 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<segment>CE2DEA45-302C-3686-B589-A119EBAB7AB5</segment>
+<tableSpace>3DF166DA-1706-3BF4-AA5B-5F70F75350D8</tableSpace>
+<existingIndex>30443733-3255-A37F-6596-F5383B4C2205</existingIndex>
+<indexSegment>CE2DEA45-302C-3686-B589-A119EBAB7AB5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

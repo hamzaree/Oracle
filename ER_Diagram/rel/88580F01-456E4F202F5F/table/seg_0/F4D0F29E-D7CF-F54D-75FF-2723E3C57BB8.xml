@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4D0F29E-D7CF-F54D-75FF-2723E3C57BB8" schemaObject="74121F9E-E83B-F996-E7EF-A40A9B17D8D4" name="EVENTPLANLINE">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>ASSIGNEMENT</sourceObjSchema>
+<sourceObjName>EVENTPLANLINE</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:33 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLANNO" id="12DFD4A5-7799-4491-C87B-3C5EFCC6F072">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>EVENTPLANLINE</sourceObjSchema>
+<sourceObjName>PLANNO</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8A52EC1-4CDC-8266-5BD0-A49959D8B76F" referredColumn="26D15198-EA71-0ACD-3813-585FF55DD346"/>
+</associations>
+</Column>
+<Column name="LINENO" id="20D8EAFD-597F-5224-0C15-F32AA2F27E09">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>EVENTPLANLINE</sourceObjSchema>
+<sourceObjName>LINENO</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIMESTART" id="FF93D962-9B2B-634C-A816-136A066086C1">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>EVENTPLANLINE</sourceObjSchema>
+<sourceObjName>TIMESTART</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIMEEND" id="79E799F0-6123-0D4C-C04E-A2046DEA61BF">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>EVENTPLANLINE</sourceObjSchema>
+<sourceObjName>TIMEEND</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMBERFLD" id="A8F5C439-B8CF-70BE-B1E9-1F9FFCE4F93B">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>EVENTPLANLINE</sourceObjSchema>
+<sourceObjName>NUMBERFLD</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCNO" id="82D5EC1C-94BE-D8C4-8FCB-1B3586C03D8F">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>EVENTPLANLINE</sourceObjSchema>
+<sourceObjName>LOCNO</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA13D6F1-C874-F6BC-E697-089FF0A7C158" referredColumn="E983A6F1-E157-B439-A2D6-8990F7B64B7F"/>
+</associations>
+</Column>
+<Column name="RESNO" id="6043D3EC-09D8-5667-156D-7505F1B11037">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>EVENTPLANLINE</sourceObjSchema>
+<sourceObjName>RESNO</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:34 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1584575B-7EB2-A785-C248-1FDA1DBC825E" referredColumn="68610504-BCBC-6138-07BC-51FC7C6C4C85"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B0D1C4C-499F-7F11-4CBE-984AC8F9B171" name="EVENTPLANLINEPK">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>ASSIGNEMENT</sourceObjSchema>
+<sourceObjName>EVENTPLANLINEPK</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:37 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12DFD4A5-7799-4491-C87B-3C5EFCC6F072"/>
+<colUsage columnID="20D8EAFD-597F-5224-0C15-F32AA2F27E09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5690EBE7-0BBC-F387-D1FB-A1A997792F79" schemaObject="74121F9E-E83B-F996-E7EF-A40A9B17D8D4" name="EVENTPLANLINEPK">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>ASSIGNEMENT</sourceObjSchema>
+<sourceObjName>EVENTPLANLINEPK</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:35 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12DFD4A5-7799-4491-C87B-3C5EFCC6F072"/>
+<colUsage columnID="20D8EAFD-597F-5224-0C15-F32AA2F27E09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0D72653-54AA-555F-463A-7A2DAA2CF658" name="EVENTPLANFK">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:38 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12DFD4A5-7799-4491-C87B-3C5EFCC6F072"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2C8C0DC-953E-82A9-3CCB-ED9810234C29" name="LOCATIONFK">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:38 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82D5EC1C-94BE-D8C4-8FCB-1B3586C03D8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="627F3C4B-F6C9-2F1B-1C95-06F782443084" name="RESOURCETBLFK">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:38 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6043D3EC-09D8-5667-156D-7505F1B11037"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

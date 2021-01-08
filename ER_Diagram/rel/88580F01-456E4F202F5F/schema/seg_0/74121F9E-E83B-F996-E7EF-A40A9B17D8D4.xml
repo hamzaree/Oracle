@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="ASSIGNEMENT" directorySegmentName="seg_0" id="74121F9E-E83B-F996-E7EF-A40A9B17D8D4">
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:33 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<importedID>82EEE0A1-82F6-46C5-8861-B8D302686AC7</importedID>
+</SchemaObject>

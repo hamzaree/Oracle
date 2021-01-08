@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="USERS" directorySegmentName="seg_0" id="3DF166DA-1706-3BF4-AA5B-5F70F75350D8">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>ASSIGNEMENT</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:33 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<dsInitialExtent>65536</dsInitialExtent>
+<dsMaxExtents>2147483645</dsMaxExtents>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+<minExtLen>65536</minExtLen>
+<dsCompression>NOCOMPRESS</dsCompression>
+<encrypt>NO</encrypt>
+<fileType>SMALLFILE</fileType>
+<inMemory>NO</inMemory>
+<dataFiles>
+<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="users01.dbf" id="28ED9583-5F6E-CA50-4CFD-8D0386A90193">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjName>/u01/app/oracle/oradata/ORCLCDB/orcl/users01.dbf</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 16:26:53 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<autoextend>ON</autoextend>
+<fileName>/u01/app/oracle/oradata/ORCLCDB/orcl/users01.dbf</fileName>
+<nextBlockSize>1280</nextBlockSize>
+<size>408320</size>
+</DataFile>
+</dataFiles>
+</TableSpaceOraclev10g>

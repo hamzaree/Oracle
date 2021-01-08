@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1584575B-7EB2-A785-C248-1FDA1DBC825E" containerWithKeyObject="F4D0F29E-D7CF-F54D-75FF-2723E3C57BB8" localFKIndex="627F3C4B-F6C9-2F1B-1C95-06F782443084" name="RESOURCETBLFK">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>ASSIGNEMENT</sourceObjSchema>
+<sourceObjName>RESOURCETBLFK</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:38 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<referredTableLongName>ASSIGNEMENT.RESOURCETBL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0312798F-ECBB-9B93-CBDE-D1CF65BAC9D5</referredTableID>
+<keyObject>C02BE526-E53A-BE3E-A808-1EA7DE8E46E4</keyObject>
+<referredKeyID>C02BE526-E53A-BE3E-A808-1EA7DE8E46E4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RESNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

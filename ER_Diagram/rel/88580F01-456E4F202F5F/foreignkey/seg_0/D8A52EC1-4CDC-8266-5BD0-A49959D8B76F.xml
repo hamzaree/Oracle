@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D8A52EC1-4CDC-8266-5BD0-A49959D8B76F" containerWithKeyObject="F4D0F29E-D7CF-F54D-75FF-2723E3C57BB8" localFKIndex="F0D72653-54AA-555F-463A-7A2DAA2CF658" name="EVENTPLANFK">
+<sourceConnName>ASSIGNEMENT</sourceConnName>
+<sourceObjSchema>ASSIGNEMENT</sourceObjSchema>
+<sourceObjName>EVENTPLANFK</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2021-01-08 15:57:38 UTC</createdTime>
+<ownerDesignName>ER_Diagram</ownerDesignName>
+<referredTableLongName>ASSIGNEMENT.EVENTPLAN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FCC14982-F551-45D5-D2ED-081BE9CCFA80</referredTableID>
+<keyObject>7ADB74EA-8017-D84F-A048-3AF6F41B7BDB</keyObject>
+<referredKeyID>7ADB74EA-8017-D84F-A048-3AF6F41B7BDB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PLANNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
